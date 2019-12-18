@@ -1,0 +1,60 @@
+*{
+    font-family: 'Oswald', sans-serif;
+  }
+  body{
+    background: url(https://live.staticflickr.com/876/41492905072_513938f616_b.jpg);
+  }
+  
+  #header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #description{
+    font-size: 20px;
+  }
+  
+  #whitebox{
+    margin: 50px;
+      display: flex;
+    background: lightgrey;
+    justify-content: center; 
+    border-radius: 15px;
+  }
+  
+  #survey-form{
+    background: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #submit{
+    display:flex;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  #submit:hover{
+    background-color: darkgreen;
+  }
+  
+  #reset{
+    display:flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  
+  }
+  
+  #reset:hover{
+    background-color: darkred;
+  }

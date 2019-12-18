@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Survey Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="header">
+    <h1 id="title">Tell Us About Yourself !</h1>
+    <p id="description">So nice to meet you! Answer a few questions so we can get to know you better.</p></header>
+    <div id="whitebox">
+    <form id="survey-form" action="/submit-data">
+      <label id="name-label">
+      Name <br><input type="text" id="name" placeholder="First Last" required><br>
+      </label>
+      <label id="email-label">
+      E-mail <br><input type="email" id="email" placeholder="name@email.com" required><br>
+      </label>
+      <label id="number-label">
+     Age <br><input type="number" id="number" placeholder="23" min="1" max="120"><br>
+      </label>
+     
+      How many cars do you have?<br>
+      <select id="dropdown">
+  <option>0</option>
+  <option>1</option>
+  <option>2+</option>
+</select><br>
+      
+      <label id="radio">
+       Do you enjoy excercise?<br> 
+      <input type="radio" name="exercise" value="yes" > Yes!<br>
+<input type="radio" name="exercise" value="no"> No.</label><br>
+      
+      <label id="checkbox">
+        What pets do you have? (chack all that apply)<br>
+      <input type="checkbox" name="pets" value="dog"> I have a dog<br>
+        <input type="checkbox" name="pets" value="cat"> I have a cat<br>
+        <input type="checkbox" name="pets" value="snake"> I have a snake<br>
+        <input type="checkbox" name="pets" value="pig"> I have a pig<br>
+        </label><br>
+  Anything else we should know? <br>   
+      <textarea rows="4" cols="50">
+</textarea><br>
+     
+      <input id="submit" type="submit"><br>
+      <input id="reset" type="reset">
+    </form>
+    </div>
+  </body>
+</html>
